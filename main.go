@@ -19,5 +19,5 @@ type Student struct {
 var (
     students = make(map[int]Student)
     nextID   = 1
-    mu       sync.Mutex // For thread-safe access to `students`
+    mu       sync.Mutex 
 )
